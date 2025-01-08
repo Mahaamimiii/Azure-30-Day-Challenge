@@ -1,11 +1,61 @@
-Azure Static web application 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Azure Static Web App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimi Arts Studio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #ff3e2e;
+        }
+        footer {
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Static Web App on Azure!</h1>
-    <p>Deployed in minutes 🚀</p>
+    <header>
+        <h1>Mimi Arts Studio</h1>
+        <p>Your gateway to creativity and inspiration!</p>
+    </header>
+    <div class="container">
+        <h2>Welcome to Mimi Arts Studio</h2>
+        <p>Explore our collection of beautiful artwork, handmade crafts, and creative designs.</p>
+        <a href="#" class="button">Explore Gallery</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Mimi Arts Studio | All rights reserved</p>
+    </footer>
 </body>
 </html>
