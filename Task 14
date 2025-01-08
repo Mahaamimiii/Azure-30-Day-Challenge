@@ -1,0 +1,12 @@
+# Day 14
+Azure Static web application 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Azure Static Web App</title>
+</head>
+<body>
+    <h1>Welcome to My Static Web App on Azure!</h1>
+    <p>Deployed in minutes 🚀</p>
+</body>
+</html>
